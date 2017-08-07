@@ -1,0 +1,10 @@
+<Html>
+<Head>
+<title> Trash talk</title>
+</Head>
+
+<body>
+body {
+    background-color: #ffcc00;
+}
+

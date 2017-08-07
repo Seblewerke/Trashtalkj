@@ -1,1 +1,62 @@
-"# Trashtalkj" 
+<!DOCTYPE html>
+<html>
+<Head>
+<title> Trash talk</title>
+</Head>
+<style>
+body {
+    background-color: DarkTurquoise;
+    
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Open Sans";
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+  text-align: center;
+}
+
+div {
+    background-color: lightgrey;
+    width: 900px;
+    border: 10px solid green;
+    padding: 25px;
+    margin: px;
+}
+.button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #ADFF2F;
+  color: #333333;
+  padding: 15px 40px 20px 40px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+</style>
+
+<body>
+<h1>TRASH TALK!</h1>
+<table>
+  <tr>
+    <th>Our Mission</th>
+    <th>Learn more</th>
+    <th>Our Sources</th>
+    <th>Cheat Sheet</th>
+  </tr>
+</table>
+<div>
+  <a href="#" class="button">Plastic/Cardboard</a> 
+  <a href="#" class="button">Glass</a> 
+  <a href="#" class="button">Metal</a> 
+  <a href="#" class="button">Food/Plants</a> 
+  <a href="#" class="button">Other</a> 
+</div>
+  
+</body>
+</html>

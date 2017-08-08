@@ -87,7 +87,7 @@ button {
   </tr>
 </table>
 <div id ="options">
-  <button type="button" onclick="document.getElementById('paper').style.display='block'">Paper/Cardboard</button>
+  <button type="button" onclick="document.getElementById('glass').style.display='block'">Paper/Cardboard</button> 
   <button type="button" onclick="document.getElementById('glass').style.display='block'">Glass</button> 
   <button type="button" onclick="document.getElementById('plastic').style.display='block'">Plastic</button>
   <button type="button" onclick="document.getElementById('metal').style.display='block'">Metal</button>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trash Talk!</title>
+</head>
+<style>
+body {
+    background-color: DarkCyan;
+    
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Open Sans";
+}
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+    width: 1271px;
+}
+th {
+  text-align: center;
+}
+
+div {
+    text-align: center;
+    background-color: lightgrey;
+    width: 1200px;
+    border: 10px solid green;
+    padding: 25px;
+    margin: px;
+    
+    
+    
+}
+button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #ADFF2F;
+  color: #333333;
+  padding: 15px 40px 20px 40px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+.button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #ADFF2F;
+  color: #333333;
+  padding: 15px 40px 20px 40px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+#choose {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px, 2px
+    cursor: pointer
+}
+#other {
+  text-align: center;
+  font: bold 20px Arial
+}
+#options {
+  margin:auto;
+}
+</style>
+<body>
+
+<h1>TRASH TALK!</h1>
+<table>
+  <tr>
+    <th>Our Mission</th>
+    <th>Learn more</th>
+    <th>Our Sources</th>
+    <th>Cheat Sheet</th>
+  </tr>
+</table>
+<div id ="options">
+  <button type="button" onclick="document.getElementById('paper').style.display='block'">Paper/Cardboard</button>
+  <button type="button" onclick="document.getElementById('glass').style.display='block'">Glass</button> 
+  <button type="button" onclick="document.getElementById('plastic').style.display='block'">Plastic</button>
+  <button type="button" onclick="document.getElementById('metal').style.display='block'">Metal</button>
+  <button type="button" onclick="document.getElementById('scraps').style.display='block'">Scraps/Waste</button>
+  <button type="button" onclick="document.getElementById('other').style.display='block'">Other/Can't Identify</button>
+</div>
+<p id="other" style="display:none">IT GOES IN THE TRASH! If it's something you can't identify, then it's safer to put it in the trash.</p>
+<button id ="choose" type="button" onclick="document.getElementById('other').style.display='none'">go back!</button>
+ 
+</body>
+</html>

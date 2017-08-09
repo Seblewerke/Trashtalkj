@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<Html> 
+<head> 
+<title>Trashtalk</title>
+</Head> 
+
+<Body>
+ <h1>About us</h1>
+ 
+  <div class="boldrow">
+
+    <div class="col-sm-4">
+      <h3>Kenzie Rutherford</h3>
+     <center> <img src="http://www.91x.com/wp-content/uploads/2014/12/vance-joy.jpg"> </center>
+      <p> This article is about the South Korean idol-singer and dancer from f(x). For the South Korean idol-singer from T-ara, see Park Hyomin. For the South Korean actress, see Park Sun-young (actress).This is a Korean name; the family name is Park.Park Sun-young (born August 12, 1993), better known by her stage name Luna, is a South Korean singer, actress and presenter. She is best known as the main vocalist and lead dancer of South Korean girl group f(x). Luna made her solo debut with the extended play Free Somebody on May 31, 2016.</p>
+    </div>
+
+    <div class="col-sm-4">
+      <h3>Meghana Shastri</h3>
+      <center> <img src="https://superaffxtion.files.wordpress.com/2014/06/red-light-teaser-luna-13.jpg"> </center>
+      <p> This article is about the South Korean idol-singer and dancer from f(x). For the South Korean idol-singer from T-ara, see Park Hyomin. For the South Korean actress, see Park Sun-young (actress).This is a Korean name; the family name is Park.Park Sun-young (born August 12, 1993), better known by her stage name Luna, is a South Korean singer, actress and presenter. She is best known as the main vocalist and lead dancer of South Korean girl group f(x). Luna made her solo debut with the extended play Free Somebody on May 31, 2016.</p>
+    </div>
+
+    <div class="col-sm-4">
+      <h3>Seblewerk Enyew</h3>
+      <center> <img src="http://press.atlanticrecords.com/wp-content/uploads/2017/05/PnB-Rock-Main-Pub-3.jpg"> </center>
+      <p> This article is about the South Korean idol-singer and dancer from f(x). For the South Korean idol-singer from T-ara, see Park Hyomin. For the South Korean actress, see Park Sun-young (actress).This is a Korean name; the family name is Park.Park Sun-young (born August 12, 1993), better known by her stage name Luna, is a South Korean singer, actress and presenter. She is best known as the main vocalist and lead dancer of South Korean girl group f(x). Luna made her solo debut with the extended play Free Somebody on May 31, 2016.</p>
+    </div>
+
+  </div>
+  
+<sytle>
+body {
+    background-color: lightblue;
+}
+
+img {
+  display: 90;
+  max-width: 20%;
+  left: 50%;
+}
+
+h3 {
+  margin: auto;
+  text-align: center;
+  font-size: 250%;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 400%;
+  text-align: center;
+}
+
+div {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    
+}
+</style> 
+</body>
+ 

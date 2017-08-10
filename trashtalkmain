@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Trash Talk!</title>
+</head>
+<style>
+body {
+    background-color: darkCyan ;
+    
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "Open Sans";
+}
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+    width: 1271px;
+}
+th {
+  text-align: center;
+}
+
+div {
+    text-align: center;
+    background-color: lightgrey;
+    width: 1200px;
+    border: 10px solid green;
+    padding: 25px;
+    margin: auto;
+}
+button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #ADFF2F;
+  color: #333333;
+  padding: 15px 40px 20px 40px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+.button {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #ADFF2F;
+  color: #333333;
+  padding: 15px 40px 20px 40px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+#choose {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px, 2px
+    cursor: pointer
+}
+#other {
+  text-align: center;
+  font: bold 20px Arial
+}
+#options {
+  margin:auto;
+}
+#changeThis {
+  margin:auto;
+  font: bold 18px Arial;
+}
+</style>
+<script>
+function paper_div() {
+  document.getElementById("changeThis").innerHTML = "magazine/newspaper, book, wrapping paper, cardboard, tissue/towel/paper, or container/box/cup/carton?";
+}
+
+function glass_div() {
+  document.getElementById("changeThis").innerHTML = "broken, ceramic, jar/bottle, or a lightbulb?";
+}
+
+function plastic_div() {
+    document.getElementById("changeThis").innerHTML = "tub/bottle/cup, packaging, lid, bag, or contaminated by food?";
+}
+
+function metal_div() {
+    document.getElementById("changeThis").innerHTML = "aluminum/tin, less than 35 lbs/2x2 ft, or sharp/greasy?";
+}
+
+function scraps_div() {
+    document.getElementById("changeThis").innerHTML = "Yard waste or food scraps";
+}
+
+function other_div() {
+    document.getElementById("changeThis").innerHTML = "IT GOES IN THE TRASH!";
+}
+
+function yard_div() {
+  document.getElementById("changeThis").innerHTML = "it goes in the compost/yard waste bin";
+}
+
+function food_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the compost!";
+}
+
+function return_div() {
+  document.getElementById("changeThis").innerHTML = " ";
+}
+
+function broken_div() {
+  document.getElementById("changeThis").innerHTML = "it goes in the trash.";
+}
+
+function mirror_div() {
+  document.getElementById("changeThis").innerHTML = "it goes in the trash.";
+}
+
+function ceramic_div() {
+  document.getElementById("changeThis").innerHTML = "it goes in the trash.";
+}
+
+function jar_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+//function light_div() 
+
+function cfl_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+function halogen_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+
+//function tub_div() {
+
+function oil_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+
+function oth_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+function pres_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+
+//function pack_div() {
+
+function wrap_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+
+//function foam_div() {
+
+function use_div() {
+  document.getElementById("changeThis").innerHTML = "Try to reuse it if you can! Otherwise it gose in the trash.";
+}
+
+function lid_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+  
+function bag_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling! For more information on how to recycle bags, go to www.bagyourbags.com";
+}
+
+//function rel_div() {
+  
+//function plate_div() {
+  
+
+function cov_div() {
+  document.getElementById("changeThis").innerHTML = "Place the remaining food in the compost, and place the plate/utensil in the trash.";
+}
+
+function clean_div() {
+  document.getElementById("changeThis").innerHTML = "it goes in the trash.";
+}
+
+function con_div() {
+  document.getElementById("changeThis").innerHTML = "First make sure it's not cardboard, then place it in the trash";
+}
+
+function mag_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+//function wrapp_div() {
+
+
+function rib_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+
+function non_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+function book_div() {
+  document.getElementById("changeThis").innerHTML = "Please consider donation! If it's not possible to donate, paperback books go in the recycling, while hardback books go in the trash.";
+}
+
+//function card_div() {
+  
+function wax_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash";
+}
+
+function plain_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+//function towel_div() {
+  
+
+function mail_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+//function dirty_div() {
+  
+
+function co_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+
+function noco_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the compost!";
+}
+
+function cle_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+//function cart_div() {
+  
+
+function cl_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+function dir_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the compost!";
+}
+
+function cleen_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling! Just make sure it's completely clean.";
+}
+
+//function alu_div() {
+
+
+//function cans_div() {
+
+
+function paintoil_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+
+function notpaint_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+function foill_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+//function less_div() {
+  
+
+function cloth_div() {
+  document.getElementById("changeThis").innerHTML = "Try to donate it! If you can't, you can put it in the trash.";
+}
+
+function small_div() {
+  document.getElementById("changeThis").innerHTML = "Try to donate it! If you can't, it goes in the trash.";
+}
+
+function nail_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the recycling!";
+}
+
+function caplid_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+
+function more_div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+
+function _div() {
+  document.getElementById("changeThis").innerHTML = "It goes in the trash.";
+}
+</script>
+<body>
+
+<h1>TRASH TALK!</h1>
+<table>
+  <tr>
+    <th>Our Mission</th>
+    <th>Learn more</th>
+    <th>Our Sources</th>
+    <th>Cheat Sheet</th>
+  </tr>  
+</table>
+<div id ="options">
+  <button type="button" onclick="paper_div()">Paper/Cardboard</button>
+  <button type="button" onclick="glass_div()">Glass</button>
+  <button type="button" onclick="plastic_div()">Plastic</button>
+  <button type="button" onclick="metal_div()">Metal</button>
+  <button type="button" onclick="scraps_div()">Scraps/Waste</button>
+  <button type="button" onclick="other_div()">Other/Can't Identify</button>
+</div>
+  <div id ="changeThis"> 
+    <button id ="choose" type="button" onclick="yard_div()">yard waste</button>
+    <button id ="choose" type="button" onclick="food_div()">food scraps</button>
+    <button id ="choose" type="button" onclick="broken_div()">broken</button>
+    <button id ="choose" type="button" onclick="mirror_div()">mirror or window</button>
+    <button id ="choose" type="button" onclick="ceramic_div()">ceramic</button>
+    <button id ="choose" type="button" onclick="jar_div()">jar or bottle</button>
+    <button id ="choose" type="button" onclick="light_div()">lightbulb</button>
+    <button id ="choose" type="button" onclick="cfl_div()">compact fluorescent (CFL)</button>
+    <button id ="choose" type="button" onclick="halogen_div()">incandescant or halogen</button>
+    <button id ="choose" type="button" onclick="tub_div()">tub, bottle, or cup</button>
+    <button id ="choose" type="button" onclick="oil_div()">motor oil/antifreeze</button>
+    <button id ="choose" type="button" onclick="oth_div()">other</button>
+    <button id ="choose" type="button" onclick="pres_div()">prescription vial</button>
+    <button id ="choose" type="button" onclick="pack_div()">packaging</button>
+    <button id ="choose" type="button" onclick="wrap_div()">wrapper</button>
+    <button id ="choose" type="button" onclick="foam_div()">styrofoam</button>
+    <button id ="choose" type="button" onclick="cup_div()">cup or carton</button>
+    <button id ="choose" type="button" onclick="use_div()">used for packaging</button>
+    <button id ="choose" type="button" onclick="lid_div()">Lid</button>
+    <button id ="choose" type="button" onclick="bag_div()">Bag</button>
+    <button id ="choose" type="button" onclick="rel_div()">food related</button>
+    <button id ="choose" type="button" onclick="plate_div()">plate or utensils</button>
+    <button id ="choose" type="button" onclick="cov_div()">covered in food</button>
+    <button id ="choose" type="button" onclick="clean_div()">clean</button>
+    <button id ="choose" type="button" onclick="con_div()">take out container</button>
+    <button id ="choose" type="button" onclick="mag_div()">magazine or newspaper</button>
+    <button id ="choose" type="button" onclick="wrapp_div()">wrapping paper</button>
+    <button id ="choose" type="button" onclick="rib_div()">foil+ribbon</button>
+    <button id ="choose" type="button" onclick="non_div()">non-foil</button>
+    <button id ="choose" type="button" onclick="book_div()">book</button>
+    <button id ="choose" type="button" onclick="card_div()">cardboard</button>
+    <button id ="choose" type="button" onclick="wax_div()">wax or plastic coated</button>
+    <button id ="choose" type="button" onclick="plain_div()">plain</button>
+    <button id ="choose" type="button" onclick="towel_div()">tissue, towel, and paper</button>
+    <button id ="choose" type="button" onclick="mail_div()">mail + envelopes</button>
+    <button id ="choose" type="button" onclick="dirty_div()">dirty/soiled</button>
+    <button id ="choose" type="button" onclick="co_div()">covered in chemicals</button>
+    <button id ="choose" type="button" onclick="noco_div()">not covered in chemicals</button>
+    <button id ="choose" type="button" onclick="cle_div()">clean</button>
+    <button id ="choose" type="button" onclick="cart_div()">container, box,cup, or carton</button>
+    <button id ="choose" type="button" onclick="cl_div()">clean</button>
+    <button id ="choose" type="button" onclick="dir_div()">dirty</button>
+    <button id ="choose" type="button" onclick="soi_div()">(soiled) food box</button>
+    <button id ="choose" type="button" onclick="cleen_div()">cleanable</button>
+    <button id ="choose" type="button" onclick="alu_div()">aluminum and/or tin</button>
+    <button id ="choose" type="button" onclick="cans_div()">cans</button>
+    <button id ="choose" type="button" onclick="paintoil_div()">covered in paint, oil, or spray</button>
+    <button id ="choose" type="button" onclick="notpaint_div()">not covered</button>
+    <button id ="choose" type="button" onclick="foill_div()">foil</button>
+    <button id ="choose" type="button" onclick="less_div()">less than 35 lbs or 2x2 feet</button>
+    <button id ="choose" type="button" onclick="cloth_div()">clothes hanger</button>
+    <button id ="choose" type="button" onclick="small_div()">small appliance</button>
+    <button id ="choose" type="button" onclick="nail_div()">nail/screw/small pieces</button>
+    <button id ="choose" type="button" onclick="caplid_div()">cap or lid</button>
+    <button id ="choose" type="button" onclick="more_div()">more than 35 lbs or 2x2 feet</button>
+    <button id ="choose" type="button" onclick="greasy_div()">sharp/greasy</button>
+  </div>
+    
+<div>
+    <button type="button" onclick="return_div()">Go Back</button>
+</div>
+    
+<!---<button id ="choose" type="button" onclick="document.getElementById('other').style.display='none'">go back!</button>-->
+ 
+</body>
+</html>

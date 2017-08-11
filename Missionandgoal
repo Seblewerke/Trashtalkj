@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<Html> 
+<head> 
+<title>Trashtalk</title>
+</Head> 
+  
+<body>
+  <h1>Mission & Purpose</h1>
+  
+  <img id = "img2" src="http://www.vtsolidwastedistrict.org/portal/images/recycling%20with%20word.jpg"> 
+    
+  <h2> WHY?</h2>
+      <i class="fa fa-cloud"></i>
+  <div>This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  
+  <img id = "img1" src="http://www.lrswmd.org/images/images/foodscrapstext.jpg">
+  
+  <h3> GOAL </h3>
+  <div id = "div1">This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+  
+  <img id = "img3" src="http://www.vtsolidwastedistrict.org/portal/images/trash%20with%20word.jpg">
+
+</body>
+
+<style>
+body {
+    background-color: Cornsilk;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 500%;
+  text-align: center;
+  margin: 100px;
+}
+
+#img2 {
+  Margin: cenetr;
+  
+}
+
+div {
+    text-align: center;
+    background-color:DarkSalmon  ;
+    width: 600px;
+    height: 200px;
+    padding: 35px;
+    margin: 25px;
+    font-size: 22px
+}
+
+h2 {
+  font-size: 200%;
+}
+
+img {
+  display: 50;
+  max-width: 9%;
+  float:right;
+  margin:0 10px 10px 0;
+}
+
+h3 {
+   font-size: 200%;
+}
+
+#div1 {
+    background-color: DarkSalmon ;
+    width: 600px;
+    height: 200px;
+    padding: 35px;
+    margin: 25px;
+    text-align: center;
+    
+}
+</style>

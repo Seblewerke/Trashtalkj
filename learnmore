@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <Html> 
 <head> 
-<title>Trashtalk</title>
+<title>Learn more</title>
 </Head> 
   
 <body>
@@ -8,26 +9,25 @@
     
   <center><h2>Recycling</h2></center>
   <center><img src="http://www.clker.com/cliparts/S/K/c/I/C/Y/blue-recycle-logo-md.png"> </center>
+    
     <center> <div>This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div> </center>
   
   <center> <h3>Compost</h3> 
-    <img src="https://ih1.redbubble.net/image.318288930.1494/flat,800x800,075,f.u1.jpg"> 
-    <center><div>This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></center>
+        <img src="https://ih1.redbubble.net/image.318288930.1494/flat,800x800,075,f.u1.jpg"> 
+    <center> <div id = "div1">This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></center>
 
    <center><h4>Landfill</h4></enter>
      <img src="http://www.vtsolidwastedistrict.org/portal/images/trash%20with%20word.jpg"> 
-     <center><div>This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></center>
+     <center><div id = "div2">This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></center>
     
-</body>
-
 <style>
   body {
-    background-color: LightSteelBlue  ;
+    background-color:  Cornsilk  ;
 }
 
 h1 {
   font-style: italic;
-  font-size: 500%;
+  font-size: 500px;
   text-align: center;
   margin: 100px;
 }
@@ -35,38 +35,59 @@ h1 {
 h2{
   font-weight: bold;
   font-style: italic;
-  font-size: 200%;
+  font-size: 200px;
   text-align: center;
   margin: 25px;
 }
 
 h3 {
   font-style: italic;
-  font-size: 200%;
+  font-size: 200px;
   text-align: center;
   margin: 25px;
 }
 
 h4 {
   font-style: italic;
-  font-size: 200%;
+  font-size: 300px;
   text-align: center;
   margin: 25px;
 }
 
 img {
   display: 90;
-  max-width: 15%;
+  max-width: 15px;
   left: 0%;
   
 }
 
 div {
-    background-color: LightSteelBlue;
+    background-color:  Cornsilk  ;
     width: 600px;
-    border: 50px solid blue;
+    border: 20px solid blue;
     padding: 70px;
-    margin: 25px;
+    margin: 5px;
+    font-size: 150%;
+}
+
+#div1 {
+    background-color:  Cornsilk  ;
+    width: 600px;
+    border: 20px solid Green;
+    padding: 50px;
+    margin: 5px;
+    font-size: 150px;
+}
+
+#div2 {
+    background-color: Cornsilk ;
+    width: 600px;
+    border: 20px solid Black;
+    padding: 70px;
+    margin: 5px;
+    font-size: 150px;
 }
 
 </style>
+</body>
+</html>
